@@ -5,6 +5,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color:rgba(253, 110, 10, 1);
 }
@@ -20,6 +23,15 @@
     padding: 18px 35px ;
     border-radius: 5px;
 }
+.section-title{
+    font-size: 35px;
+    font-weight:bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 .header{
      background-image: url( '../images/developer.png'),url('../images/header_bg.png');
      background-repeat: no-repeat;
@@ -34,6 +46,9 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+.banner-description{
+    color: #757575;
 }
 nav ul{
     display: flex;
@@ -66,4 +81,14 @@ nav li a {
 }
 .banner-profile-pic{
     width: 580px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
 }
